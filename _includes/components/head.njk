@@ -9,12 +9,14 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="{{ page.url }}">
 	<meta property="og:description" content="Front-End Web Development Portfolio of Adam Culpepper, Baton Rouge, Louisiana">
+	<link rel="canonical" href="{{ permalink }}">
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon-precomposed" href="/favicon.png">
 
 	{% if variables.environment == 'development' %}
 		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/font-awesome.min.css">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/styles.css">
 	{% else %}
 		{% set css %}

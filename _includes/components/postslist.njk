@@ -1,4 +1,4 @@
-<section>
+<section id="blog-list">
 	{% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			<h3>
@@ -10,26 +10,27 @@
 					{% endif %}
 				</a>
 			</h3>
+			<div class="post-summary">
 			{% if post.data.summary %}
-				<p>
-					{{ post.data.summary }}
-				</p>
+				{{ post.data.summary }}
 			{% endif %}
-			<p>
+			</div>
+			<span class="post-date">
 				<time datetime="{{ post.date | machineDate }}">
-					<small>{{ post.date | readableDate }} by <a href="/authors/{{ post.data.author | slug }}/">{{ post.data.author }}</a></small>
+					{{ post.date | readableDate }}
 				</time>
-			</p>
+			</span>
 			{% if post.data.tags %}
-				<p>
+				<span class="post-tags">
 					{% for tag in post.data.tags %}
-		  			{%- if tag != "post" -%}
-		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-		  			{%- endif -%}
+					{%- if tag != "blog" -%}
+						{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+						<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+					{%- endif -%}
 					{% endfor %}
-				</p>
+				</span>
 			{% endif %}
 		</article>
+		<!-- <a href="/authors/{{ post.data.author | slug }}/">{{ post.data.author }}</a> -->
 	{% endfor %}
 </section>

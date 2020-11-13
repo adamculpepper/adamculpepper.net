@@ -5,14 +5,17 @@
 	{% set pageSlug %}
 		{% if permalink == '/' %}
 			page-home
+		{% elseif section == 'post' %}
+			page-post
+		{% elseif section == 'tags' %}
+			page-tags
 		{% else %}
 			page-{{permalink | replace("index.html", "") | slug}}
 		{% endif %}
 	{% endset %}
 
 	<body id="{{ pageSlug | trim}}">
-
-
+		<!-- section: {{ section }} -->
 		<!--
 		include("functions.php");
 
@@ -29,10 +32,10 @@
 		?>
 		-->
 
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 mx-auto">
-					<div id="header">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 mx-auto">
 						<div class="d-flex align-items-center">
 							<div class="logo">
 								<a href="/">
@@ -46,7 +49,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
 
 
 		{% if section != 'home' %}
@@ -54,11 +57,31 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-10 mx-auto">
-						<h1>{{ title }}</h1>
 						{% if section == 'post' %}
-						<small>
-							<time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
-						</small>
+							<div class="single-blog">
+								<h1>{{ title }}</h1>
+								{% if date %}
+									<span class="post-date">
+										<time datetime="{{ post.date | machineDate }}">
+											{{ date | readableDate }}
+										</time>
+									</span>
+								{% endif %}
+								{% if tags %}
+								<span class="post-tags">
+									{% for tag in tags %}
+										{%- if tag != "blog" -%}
+											{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+											<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+										{%- endif -%}
+									{% endfor %}
+								</span>
+								{% endif %}
+							</div>
+						{% elseif section == 'tags' %}
+							<h1>{{ renderData.title }}</h1>
+						{% else %}
+							<h1>{{ title }}</h1>
 						{% endif %}
 					</div>
 				</div>
@@ -67,9 +90,9 @@
 		{% endif %}
 
 
-		<div id="content">
+		<main id="content">
 			{{ layoutContent | safe }}
-		</div>
+		</main>
 
 		<footer>
 			<div class="container">

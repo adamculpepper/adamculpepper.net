@@ -3,26 +3,17 @@ layout: layouts/base.njk
 section: post
 ---
 
-<article>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-10 mx-auto">
-				{{ layoutContent | safe }}
-
-				{% if tags %}
-				<p>
-					{% for tag in tags %}
-					{%- if tag != "post" -%}
-					{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-					<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-					{%- endif -%}
-					{% endfor %}
-				</p>
-				{% endif %}
+<section id="single-post">
+	<article>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 mx-auto">
+					{{ layoutContent | safe }}
+				</div>
 			</div>
 		</div>
-	</div>
-</article>
+	</article>
+</section>
 
 <div class="container">
 	<div class="row">
@@ -30,7 +21,6 @@ section: post
 			<nav>
 				<a href="{{ '/blog/' | url }}">← Blog index</a>
 			</nav>
-
 		</div>
 	</div>
 </div>

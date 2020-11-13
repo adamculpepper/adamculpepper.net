@@ -9,7 +9,7 @@ permalink: /blog/index.html
 		<div class="col-sm-10 mx-auto">
 			{{ layoutContent | safe }}
 
-			{% set postslist = collections.post %}
+			{% set postslist = collections.blog %}
 			{% include "components/postslist.njk" %}
 		</div>
 	</div>
