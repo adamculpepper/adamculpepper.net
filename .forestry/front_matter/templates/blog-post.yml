@@ -17,3 +17,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- posts/datatables-sorting-images-and-other-non-string-data.md
