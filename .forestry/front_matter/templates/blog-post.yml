@@ -20,4 +20,5 @@ fields:
   label: tags
 pages:
 - posts/datatables-sorting-images-and-other-non-string-data.md
+- posts/jquery-double-spaces-after-period-word-processing.md
 - posts/remove-title-first-name-and-last-name-on-web-forms-in-business-catalyst-jquery.md
