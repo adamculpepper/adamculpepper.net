@@ -1,0 +1,48 @@
+{% set address1 = metadata.company_info.physical_address.address1 %}
+{% set city = metadata.company_info.physical_address.city %}
+{% set state = metadata.company_info.physical_address.state %}
+{% set zipcode = metadata.company_info.physical_address.zipcode %}
+
+{% if sidebar == 'map' %}
+	<h3>Location</h3>
+	<a href="https://goo.gl/maps/bmlJt" target="_blank">
+		<img src="/_includes/assets/uploads/map-spectrum-air-conditioning.jpg" class="img-fluid">
+	</a>
+	<h4 class="text-danger">
+		{{ metadata.company_info.company_name }}
+	</h4>
+	<a href="{{metadata.company_info.physical_address.google_maps_link}}" class="text-dark">
+		{{ address1 }}<br>
+		{{ city }}, {{ state }} {{ zipcode }}
+	</a>
+	<br>
+	<a href="tel:{{ metadata.company_info.phone_number }}">
+		<i class="fa fa-phone mr-2"></i>{{ metadata.company_info.phone_number }}
+	</a>
+
+	{% if section == 'contact' %}
+		<hr>
+
+		<h4>Accepted Payment Options</h4>
+		<div class="row">
+			<img class="col-6 col-sm-3 mb-4 mb-sm-0 p-0" src="/_includes/assets/uploads/logo-card-discover.jpg">
+			<img class="col-6 col-sm-3 mb-4 mb-sm-0 p-0" src="/_includes/assets/uploads/logo-card-visa.jpg">
+			<img class="col-6 col-sm-3 mb-4 mb-sm-0 p-0" src="/_includes/assets/uploads/logo-card-master-card.jpg">
+			<img class="col-6 col-sm-3 mb-4 mb-sm-0 p-0" src="/_includes/assets/uploads/logo-card-american-express.jpg">
+		</div>
+	{% endif %}
+{% elseif sidebar == 'systems' %}
+	<div class="row">
+		<div class="col-12">
+			<h3>We Service All<br>Makes and Models</h3>
+			<h4 class="mt-0">Air Conditioning Systems</h4>
+		</div>
+		{%- for system in ac_systems.systems -%}
+		<div class="col-6 col-sm-4 col-lg-6 {% if loop.index % 2 %}pr-lg-0{% else %}pl-lg-0{% endif %}">
+			<a href="{{ system.link }}" target="_blank">
+				<img src="{{ system.image }}" alt="{{ system.title }}" class="w-100">
+			</a>
+		</div>
+		{%- endfor -%}
+	</div>
+{% endif %}

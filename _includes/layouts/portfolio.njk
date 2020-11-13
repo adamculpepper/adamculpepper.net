@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+section: portfolio
+---
+
+{{ layoutContent | safe }}
+
+
+<script>
+$(document).ready(function() {
+	//Fancybox - http://fancybox.net
+	$(".fade a").fancybox({
+		'transitionIn'		: 'elastic',
+		'transitionOut'		: 'elastic',
+		'titlePosition' 	: 'over',
+		'overlayShow'		: true,
+
+		'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+			return '<span id="fancybox-title-over"><div id="fancy_title">' + (title.length ? title : '') + '</div><div id="fancy_count">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + '</div><div style="clear:both;"></div></span>';
+		}
+	});
+});
+</script>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-10 mx-auto">
+			<div class="row">
+				{%- for item in portfolio.items -%}
+					{% if item.featured == true %}
+						<div class="col-sm-4 mb-4">
+							<div class="portfolio-item">
+								<a rel="port" href="fullimage.jpg" title="{{ item.title }}">
+									<div class="details-overlay">
+										<h4>{{ item.title }}</h4>
+										<ul>
+											{%- for skill in item.skills -%}
+												<li>{{ skill }}</li>
+											{%- endfor -%}
+										</ul>
+										<p class="designer"></p>
+										<li>Designer: {{ item.designer }}</li>
+									</div>
+									<img class="img-fluid" src="/_includes/assets/img/portfolio/{{ item.image}}">
+								</a>
+							</div>
+						</div>
+					{% else %}
+					<div class="portfolio-item-small">
+						<h5>{{ item.title }}</h5>
+					</div>
+					{% endif %}
+				{%- endfor -%}
+			</div>
+		</div>
+	</div>
+</div>

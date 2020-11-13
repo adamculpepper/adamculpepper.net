@@ -1,0 +1,42 @@
+<div id="banner">
+	<div class="banner-overlay1"></div>
+	<div class="banner-overlay2"></div>
+
+	{% if section == 'home' %}
+	<div class="container">
+		<div class="slider">
+			<div id="outside">
+				<span id="prev">
+					<i class="fa fa-chevron-left"></i>
+				</span>
+				<div class="cycle-slideshow"
+					data-cycle-log="false"
+					data-cycle-fx="fadeout"
+					data-cycle-speed=1500
+					data-cycle-timeout=4000	
+					data-cycle-pause-on-hover="true"
+					data-cycle-slides="> a"
+					data-cycle-prev="#prev"
+					data-cycle-next="#next"
+					data-cycle-auto-height="1200:440"
+					data-cycle-overlay-fx-sel=">div"
+					>
+					<!--<div class="cycle-overlay"></div>-->
+					{%- for banner in home_slides.slides -%}
+						<a href="{{ banner.link }}" data-cycle-title="{{ banner.title }}" data-cycle-desc="{{ banner.caption }}">
+							{% imgresp
+								path=banner.image,
+								sizes="200, 467, 664, 828, 900, 1000, 1200",
+								alt=banner.title
+							%}
+						</a>
+					{%- endfor -%}
+				</div>
+				<span id="next">
+					<i class="fa fa-chevron-right"></i>
+				</span>
+			</div>
+		</div>
+	</div>
+	{% endif %}
+</div>

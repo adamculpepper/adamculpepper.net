@@ -1,0 +1,27 @@
+<head>
+	<title>{{ title or renderData.title or metadata.title }}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1000"><!-- REMOVE ONCE MADE RESPONSIVE -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="description" content="Front-End Web Development Portfolio of Adam Culpepper, Baton Rouge, Louisiana">
+	<meta property="og:title" content="AdamCulpepper.net - Web Developer Portfolio">
+	<meta property="og:image" content="http://adamculpepper.net/_includes/assets/img/thumbnail.jpg">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ page.url }}">
+	<meta property="og:description" content="Front-End Web Development Portfolio of Adam Culpepper, Baton Rouge, Louisiana">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="/favicon.png">
+
+	{% if variables.environment == 'development' %}
+		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/styles.css">
+	{% else %}
+		{% set css %}
+			{% include "assets/css/bootstrap.min.css" %}
+			{% include "assets/css/font-awesome.min.css" %}
+			{% include "assets/css/styles.css" %}
+		{% endset %}
+		<style>{{ css | cssmin | safe }}</style>
+	{% endif %}
+</head>
