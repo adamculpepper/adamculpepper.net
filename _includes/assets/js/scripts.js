@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 	
 	$('.content a').hover(function(){  // mouseover 
 		$(this).stop().fadeTo(200, 0.8);  
@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$(this).stop().fadeTo(200, 1.0);
 	});
  
-	var section = $(".section").size();
+	var section = $(".section").length;
 	var loopInt = 0;
 	while(loopInt <= section){
 		var divHeight = $(".section").eq(loopInt).height();
