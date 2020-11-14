@@ -7,10 +7,13 @@ const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation"); // Eleventy Navigation - https://www.11ty.dev/docs/plugins/navigation/
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"); // Eleventy Syntax Highlighting - https://www.11ty.dev/docs/plugins/syntaxhighlight/
+const responsiveImages = require("eleventy-plugin-responsive-images");
+
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.addPlugin(responsiveImages);
 
 	// Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
 	// layout aliases! Say you have a bunch of existing content using
@@ -106,48 +109,11 @@ module.exports = function(eleventyConfig) {
 		.use(markdownItAttrs)
 	);
 
-	//module.exports = function(eleventyConfig, pluginNamespace) {
-		//eleventyConfig.namespace(pluginNamespace, () => {
-			eleventyConfig.addShortcode('imgresp', parameter => {
-				var errors = '';
 
-				if (!parameter.path) {
-					errors += 'path parameter missing!';
-				} else if (!parameter.sizes) {
-					errors += 'sizes parameter missing!';
-				}
 
-				if (errors) {
-					return '<span style="background:lightsalmon; padding:5px;">' + errors + '</span>';
-				} else {
-					const hostname = eleventyConfig.hostname ? eleventyConfig.hostname : '';
-					const arraySizes = parameter.sizes.replace(/ /g,'').split(',');
-					const maxSize = Math.max.apply(Math, arraySizes);
-					const baseUrl = `https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/image/fetch/`;
-					const imageSrc = `${baseUrl}q_auto,f_auto,w_${maxSize}/${hostname}${parameter.path}`;
-					const srcset = arraySizes.map(width => {
-						return `${baseUrl}q_auto,f_auto,w_${width}/${hostname}${parameter.path} ${width}w`;
-					}).join(',');
-
-					return '<img ' +
-						(parameter.width ? ' width="' + parameter.width + '"' : '') +
-						(parameter.height ? ' height="' + parameter.height + '"' : '') +
-						(parameter.sizes ? ' sizes="(max-width: ' + maxSize + 'px) 100vw, ' + maxSize + 'px"' : '') +
-						' src="' + imageSrc + '"' +
-						' srcset="' + srcset + '"' +
-						(parameter.alt ? ' alt="' + parameter.alt.trim() + '"' : '') +
-						(parameter.classes ? ' class="' + parameter.classes + '"' : '') +
-						'>';
-				}
-			});
-		//});
-	//};
-
-	/* Plugin: eleventy-plugin-respimg */
-	//const pluginRespimg = require('eleventy-plugin-respimg');
+	/* Plugin: eleventy-plugin-responsive-images */
 	eleventyConfig.cloudinaryCloudName = process.env.CLOUDINARY_CLOUD_NAME;
-	eleventyConfig.hostname = 'https://spectrumac.netlify.app';
-	//eleventyConfig.addPlugin( pluginRespimg );
+	eleventyConfig.hostname = 'https://adamculpepper.netlify.app';
 
 
 	return {

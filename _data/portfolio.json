@@ -2,126 +2,126 @@
   "items": [
 	{
 		"title": "Orange Bowl",
-		"image": "18.jpg",
+		"image": "/_includes/assets/img/uploads/18.jpg",
 		"designer": "Aaron Landry",
 		"skills": ["HTML + CSS Development", "Custom jQuery Animation", "Custom Facebook App Integration"],
 		"featured": true
 	},
 	{
 		"title": "Baton Rouge River Center",
-		"image": "17.png",
+		"image": "/_includes/assets/img/uploads/17.png",
 		"designer": "Aaron Landry",
 		"skills": ["HTML + CSS Development", "Custom jQuery Animation", "Search Engine Optimization"],
 		"featured": true
 	},
 	{
 		"title": "Lee Michael's - Christmas Wishes",
-		"image": "19.png",
+		"image": "/_includes/assets/img/uploads/19.png",
 		"designer": "Aaron Landry",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Industrial Cooling Tower",
-		"image": "01.png",
+		"image": "/_includes/assets/img/uploads/01.png",
 		"designer": "Evanna Alvis",
 		"skills": ["HTML + CSS Development", "Custom jQuery Animation", "CMS Theme Development"],
 		"featured": true
 	},
 	{
 		"title": "LA Alcohol & Tobacco Control",
-		"image": "02.png",
+		"image": "/_includes/assets/img/uploads/02.png",
 		"designer": "Evanna Alvis",
 		"skills": ["XHTML + CSS Development", "PHP + MySQL Development", "WordPress Theme Development"],
 		"featured": true
 	},
 	{
 		"title": "Scott Fence",
-		"image": "03.png",
+		"image": "/_includes/assets/img/uploads/03.png",
 		"designer": "Natalie Gillis",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "JaniLane",
-		"image": "04.png",
+		"image": "/_includes/assets/img/uploads/04.png",
 		"designer": "Evanna Alvis",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Louisiana Office Supply",
-		"image": "05.png",
+		"image": "/_includes/assets/img/uploads/05.png",
 		"designer": "Aaron Landry",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Mike Anderson's: Baton Rouge",
-		"image": "06.png",
+		"image": "/_includes/assets/img/uploads/06.png",
 		"designer": "Aaron Landry",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Mike Anderson's: Gonzales",
-		"image": "07.png",
+		"image": "/_includes/assets/img/uploads/07.png",
 		"designer": "Aaron Landry",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Sunrise Rotary Club of Baton Rouge",
-		"image": "08.png",
+		"image": "/_includes/assets/img/uploads/08.png",
 		"designer": "Evanna Alvis",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Precise Pipe & Clad LLC",
-		"image": "12.png",
+		"image": "/_includes/assets/img/uploads/12.png",
 		"designer": "Evanna Alvis",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Redemptorist High School",
-		"image": "13.png",
+		"image": "/_includes/assets/img/uploads/13.png",
 		"designer": "Evanna Alvis",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Growing Up Fit",
-		"image": "14.png",
+		"image": "/_includes/assets/img/uploads/14.png",
 		"designer": "Aaron Landry",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "St. Michael The Archangel High School",
-		"image": "15.png",
+		"image": "/_includes/assets/img/uploads/15.png",
 		"designer": "Aaron Landry",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "SMI Companies",
-		"image": "11_2.png",
+		"image": "/_includes/assets/img/uploads/11_2.png",
 		"designer": "Evanna Alvis",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Accuscreen Systems",
-		"image": "09.png",
+		"image": "/_includes/assets/img/uploads/09.png",
 		"designer": "Evanna Alvis",
 		"skills": "",
 		"featured": true
 	},
 	{
 		"title": "Victoria's Toy Station",
-		"image": "16.png",
+		"image": "/_includes/assets/img/uploads/16.png",
 		"designer": "Evanna Alvis",
 		"skills": "",
 		"featured": true

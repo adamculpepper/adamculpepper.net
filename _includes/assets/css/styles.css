@@ -80,7 +80,7 @@ footer .socials .fa-phone-square-alt {color:#777;}
 
 
 /* Home */
-#page-home .spotlight-portfolio img {-webkit-border-radius:3px; border-radius:3px; -webkit-box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.5); box-shadow:0 0 20px 0 rgba(255, 255, 255, 0.5);}
+#page-home .spotlight-portfolio img {border-radius:3px; border:1px solid #fff; box-shadow:0 1px 3px rgba(0,0,0,0.5);}
 #page-home .spotlight-portfolio a:hover img {opacity:0.8;}
 #page-home .spotlight-blog .blog {background-color:rgba(255, 255, 255, 0.2);}
 #page-home .spotlight-blog .blog h3 {font-size:20px; font-weight:bold;}
