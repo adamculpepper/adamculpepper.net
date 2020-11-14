@@ -18,14 +18,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- posts/datatables-sorting-images-and-other-non-string-data.md
-- posts/date-formatting-with-jquery-ui.md
-- posts/hide-dead-or-broken-images-using-jquery.md
-- posts/jquery-double-spaces-after-period-word-processing.md
-- posts/jquery-replace-comma-with-comma-space.md
-- posts/jquery-ui-location-hash-without-page-anchor-jumping-to-element-id.md
-- posts/lt-hr-gt-tag-css-styling-cross-browser-compliant.md
-- posts/remove-title-field-on-web-forms-in-business-catalyst-in-both-jquery-css.md
-- posts/remove-title-first-name-and-last-name-on-web-forms-in-business-catalyst-jquery.md
-- posts/smooth-scrolling-with-jquery.md
