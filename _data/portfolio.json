@@ -1,490 +1,1218 @@
 {
   "items": [
-	{
-		"title": "Orange Bowl",
-		"image": "18.jpg",
-		"designer": "Aaron Landry",
-		"skills": ["HTML + CSS Development", "Custom jQuery Animation", "Custom Facebook App Integration"],
-		"featured": true
-	},
-	{
-		"title": "Baton Rouge River Center",
-		"image": "17.png",
-		"designer": "Aaron Landry",
-		"skills": ["HTML + CSS Development", "Custom jQuery Animation", "Search Engine Optimization"],
-		"featured": true
-	},
-	{
-		"title": "Lee Michael's - Christmas Wishes",
-		"image": "19.png",
-		"designer": "Aaron Landry",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Industrial Cooling Tower",
-		"image": "01.png",
-		"designer": "Evanna Alvis",
-		"skills": ["HTML + CSS Development", "Custom jQuery Animation", "CMS Theme Development"],
-		"featured": true
-	},
-	{
-		"title": "LA Alcohol & Tobacco Control",
-		"image": "02.png",
-		"designer": "Evanna Alvis",
-		"skills": ["XHTML + CSS Development", "PHP + MySQL Development", "WordPress Theme Development"],
-		"featured": true
-	},
-	{
-		"title": "Scott Fence",
-		"image": "03.png",
-		"designer": "Natalie Gillis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "JaniLane",
-		"image": "04.png",
-		"designer": "Evanna Alvis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Louisiana Office Supply",
-		"image": "05.png",
-		"designer": "Aaron Landry",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Mike Anderson's: Baton Rouge",
-		"image": "06.png",
-		"designer": "Aaron Landry",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Mike Anderson's: Gonzales",
-		"image": "07.png",
-		"designer": "Aaron Landry",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Sunrise Rotary Club of Baton Rouge",
-		"image": "08.png",
-		"designer": "Evanna Alvis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Precise Pipe & Clad LLC",
-		"image": "12.png",
-		"designer": "Evanna Alvis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Redemptorist High School",
-		"image": "13.png",
-		"designer": "Evanna Alvis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Growing Up Fit",
-		"image": "14.png",
-		"designer": "Aaron Landry",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "St. Michael The Archangel High School",
-		"image": "15.png",
-		"designer": "Aaron Landry",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "SMI Companies",
-		"image": "11_2.png",
-		"designer": "Evanna Alvis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Accuscreen Systems",
-		"image": "09.png",
-		"designer": "Evanna Alvis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "Victoria's Toy Station",
-		"image": "16.png",
-		"designer": "Evanna Alvis",
-		"skills": "",
-		"featured": true
-	},
-	{
-		"title": "The Chimes: East"
-	},
-	{
-		"title": "The Chimes: LSU"
-	},
-	{
-		"title": "Himmel's Hardware"
-	},
-	{
-		"title": "American Gateway Bank"
-	},
-	{
-		"title": "The Varsity"
-	},
-	{
-		"title": "Innovative Care"
-	},
-	{
-		"title": "Auger Services"
-	},
-	{
-		"title": "LSU: College of Basic Sciences"
-	},
-	{
-		"title": "American Gateway Bank"
-	},
-	{
-		"title": "First National Banker's Bank"
-	},
-	{
-		"title": "Peek-Howe x 2"
-	},
-	{
-		"title": "Amesbury, LLC"
-	},
-	{
-		"title": "Element Group, LLC"
-	},
-	{
-		"title": "Transformyx x 2"
-	},
-	{
-		"title": "RallyPoint x 2"
-	},
-	{
-		"title": "Perralt's Trucking"
-	},
-	{
-		"title": "Culligan Lead Tool: GUI"
-	},
-	{
-		"title": "HeartSix Guest Ranch"
-	},
-	{
-		"title": "Louisiana Mortgage Lenders"
-	},
-	{
-		"title": "Public Affairs of Louisiana"
-	},
-	{
-		"title": "TechX2011"
-	},
-	{
-		"title": "PacTec, Inc."
-	},
-	{
-		"title": "Rooster Petroleum"
-	},
-	{
-		"title": "Amesbury Companies (Peek-Howe)"
-	},
-	{
-		"title": "Offshore Technical Compliance"
-	},
-	{
-		"title": "National Write Your Congressman"
-	},
-	{
-		"title": "Catholic Community Radio"
-	},
-	{
-		"title": "Transformyx"
-	},
-	{
-		"title": "Leading Health Care LA"
-	},
-	{
-		"title": "Bumble Lane"
-	},
-	{
-		"title": "GPA / LYFE"
-	},
-	{
-		"title": "Lyons Specialty Co. Inc"
-	},
-	{
-		"title": "Advance Innovative Education"
-	},
-	{
-		"title": "RallyPoint"
-	},
-	{
-		"title": "Bonannos Catering"
-	},
-	{
-		"title": "Southern University"
-	},
-	{
-		"title": "SSi"
-	},
-	{
-		"title": "St. Michael"
-	},
-	{
-		"title": "Williams-Wallace Management Co"
-	},
-	{
-		"title": "Thomas Foster"
-	},
-	{
-		"title": "Bonannos Catering"
-	},
-	{
-		"title": "Hospice of Baton Rouge"
-	},
-	{
-		"title": "RallyPoint"
-	},
-	{
-		"title": "Matherne's Supermarket"
-	},
-	{
-		"title": "Morrison Energy Group (Splash)"
-	},
-	{
-		"title": "Chet Morrison 2"
-	},
-	{
-		"title": "Chet Morrison"
-	},
-	{
-		"title": "Compliance Envirosystems"
-	},
-	{
-		"title": "Dr. Anthony Stephens"
-	},
-	{
-		"title": "First National Bankers Bank 02"
-	},
-	{
-		"title": "First National Bankers Bank 01"
-	},
-	{
-		"title": "Cypress Heights Academy"
-	},
-	{
-		"title": "Champion Technology, Inc."
-	},
-	{
-		"title": "Peek-Howe Real Estate #2"
-	},
-	{
-		"title": "Catering Cajun/Wayne Stabiler"
-	},
-	{
-		"title": "Children's Cabinet"
-	},
-	{
-		"title": "RallyPoint"
-	},
-	{
-		"title": "D. Honoré Construction, Inc."
-	},
-	{
-		"title": "Peek-Howe Real Estate #1"
-	},
-	{
-		"title": "Rickey Heroman's Florist"
-	},
-	{
-		"title": "The Perfect Guitar"
-	},
-	{
-		"title": "Himmel's Hardware & Cabinets"
-	},
-	{
-		"title": "Artistic Pools and Service"
-	},
-	{
-		"title": "Chem Spray South"
-	},
-	{
-		"title": "Manuel Martinez"
-	},
-	{
-		"title": "Real Estate Template"
-	},
-	{
-		"title": "Cypress Heights Academy"
-	},
-	{
-		"title": "Daly Dental Smiles"
-	},
-	{
-		"title": "Cypress Heights"
-	},
-	{
-		"title": "BRG Phone Plus"
-	},
-	{
-		"title": "Cypress Heights Academy"
-	},
-	{
-		"title": "Louisiana Technology Park"
-	},
-	{
-		"title": "Pro Printer"
-	},
-	{
-		"title": "Port Fourchon"
-	},
-	{
-		"title": "BRDP"
-	},
-	{
-		"title": "St. Jude the Apostle School"
-	},
-	{
-		"title": "Braud Welding Inc."
-	},
-	{
-		"title": "Sacred Heart of Jesus School"
-	},
-	{
-		"title": "City of New Roads"
-	},
-	{
-		"title": "Baton Rouge Area Sports"
-	},
-	{
-		"title": "Jonathan Rushing Photography"
-	},
-	{
-		"title": "Dreams Come True"
-	},
-	{
-		"title": "The Element Group"
-	},
-	{
-		"title": "Ancora"
-	},
-	{
-		"title": "Aspiring Film Makers Festival"
-	},
-	{
-		"title": "Scoliosis"
-	},
-	{
-		"title": "Jim Stone Company"
-	},
-	{
-		"title": "Prince Hall Lodge of Baton Rouge"
-	},
-	{
-		"title": "Louisiana Leadership Institute"
-	},
-	{
-		"title": "Buffalo Valley Ranch"
-	},
-	{
-		"title": "Fit-Bride"
-	},
-	{
-		"title": "SMI Companies, Inc"
-	},
-	{
-		"title": "Precise Pipe & Clad, LLC (PPC)"
-	},
-	{
-		"title": "Gulf South Safety"
-	},
-	{
-		"title": "A.C. Lewis Management"
-	},
-	{
-		"title": "Acadian Oaks"
-	},
-	{
-		"title": "Krewe of Artemis"
-	},
-	{
-		"title": "Dallon Bush-PreauxPics"
-	},
-	{
-		"title": "Spookypants.com"
-	},
-	{
-		"title": "Dallon Bush-IndiePreaux"
-	},
-	{
-		"title": "Leger's Catering"
-	},
-	{
-		"title": "North Lafourche Levee District"
-	},
-	{
-		"title": "Redemptorist High School"
-	},
-	{
-		"title": "SRI Telecom"
-	},
-	{
-		"title": "Sanctuary by the Sea"
-	},
-	{
-		"title": "Krewe of Orion"
-	},
-	{
-		"title": "Perrault's Trucking"
-	},
-	{
-		"title": "The Gatehouse"
-	},
-	{
-		"title": "Sacred Heart Catholic Church"
-	},
-	{
-		"title": "Redemptorist Elementary School"
-	},
-	{
-		"title": "The Bush Law Firm"
-	},
-	{
-		"title": "Cake Goddess, LLC"
-	},
-	{
-		"title": "Red River Solutions"
-	},
-	{
-		"title": "Citizens for Educational Choice"
-	},
-	{
-		"title": "St. Alphonsus Catholic School"
-	},
-	{
-		"title": "Sunrise Rotary of Baton Rouge"
-	}
+    {
+      "title": "Orange Bowl",
+      "image": "18.jpg",
+      "designer": "Aaron Landry",
+      "skills": [
+        "HTML + CSS Development",
+        "Custom jQuery Animation",
+        "Custom Facebook App Integration"
+      ],
+      "featured": true
+    },
+    {
+      "title": "Baton Rouge River Center",
+      "image": "17.png",
+      "designer": "Aaron Landry",
+      "skills": [
+        "HTML + CSS Development",
+        "Custom jQuery Animation",
+        "Search Engine Optimization"
+      ],
+      "featured": true
+    },
+    {
+      "title": "Lee Michael's - Christmas Wishes",
+      "image": "19.png",
+      "designer": "Aaron Landry",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Industrial Cooling Tower",
+      "image": "01.png",
+      "designer": "Evanna Alvis",
+      "skills": [
+        "HTML + CSS Development",
+        "Custom jQuery Animation",
+        "CMS Theme Development"
+      ],
+      "featured": true
+    },
+    {
+      "title": "LA Alcohol & Tobacco Control",
+      "image": "02.png",
+      "designer": "Evanna Alvis",
+      "skills": [
+        "XHTML + CSS Development",
+        "PHP + MySQL Development",
+        "WordPress Theme Development"
+      ],
+      "featured": true
+    },
+    {
+      "title": "Scott Fence",
+      "image": "03.png",
+      "designer": "Natalie Gillis",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "JaniLane",
+      "image": "04.png",
+      "designer": "Evanna Alvis",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Louisiana Office Supply",
+      "image": "05.png",
+      "designer": "Aaron Landry",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Mike Anderson's: Baton Rouge",
+      "image": "06.png",
+      "designer": "Aaron Landry",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Mike Anderson's: Gonzales",
+      "image": "07.png",
+      "designer": "Aaron Landry",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Sunrise Rotary Club of Baton Rouge",
+      "image": "08.png",
+      "designer": "Evanna Alvis",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Precise Pipe & Clad LLC",
+      "image": "12.png",
+      "designer": "Evanna Alvis",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Redemptorist High School",
+      "image": "13.png",
+      "designer": "Evanna Alvis",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Growing Up Fit",
+      "image": "14.png",
+      "designer": "Aaron Landry",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "St. Michael The Archangel High School",
+      "image": "15.png",
+      "designer": "Aaron Landry",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "SMI Companies",
+      "image": "11_2.png",
+      "designer": "Evanna Alvis",
+      "skills": [
 
+      ],
+      "featured": true
+    },
+    {
+      "title": "Accuscreen Systems",
+      "image": "09.png",
+      "designer": "Evanna Alvis",
+      "skills": [
+
+      ],
+      "featured": true
+    },
+    {
+      "title": "Victoria's Toy Station",
+      "image": "16.png",
+      "designer": "Evanna Alvis",
+      "skills": [
+
+      ],
+      "featured": true
+    },
+    {
+      "title": "The Chimes: East",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "The Chimes: LSU",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Himmel's Hardware",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "American Gateway Bank",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "The Varsity",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Innovative Care",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Auger Services",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "LSU: College of Basic Sciences",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "American Gateway Bank",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "First National Banker's Bank",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Peek-Howe x 2",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Amesbury, LLC",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Element Group, LLC",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Transformyx x 2",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "RallyPoint x 2",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Perralt's Trucking",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Culligan Lead Tool: GUI",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "HeartSix Guest Ranch",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Louisiana Mortgage Lenders",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Public Affairs of Louisiana",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "TechX2011",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "PacTec, Inc.",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Rooster Petroleum",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Amesbury Companies (Peek-Howe)",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Offshore Technical Compliance",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "National Write Your Congressman",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Catholic Community Radio",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Transformyx",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Leading Health Care LA",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Bumble Lane",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "GPA / LYFE",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Lyons Specialty Co. Inc",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Advance Innovative Education",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "RallyPoint",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Bonannos Catering",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Southern University",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "SSi",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "St. Michael",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Williams-Wallace Management Co",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Thomas Foster",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Bonannos Catering",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Hospice of Baton Rouge",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "RallyPoint",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Matherne's Supermarket",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Morrison Energy Group (Splash)",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Chet Morrison 2",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Chet Morrison",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Compliance Envirosystems",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Dr. Anthony Stephens",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "First National Bankers Bank 02",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "First National Bankers Bank 01",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Cypress Heights Academy",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Champion Technology, Inc.",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Peek-Howe Real Estate #2",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Catering Cajun/Wayne Stabiler",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Children's Cabinet",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "RallyPoint",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "D. Honoré Construction, Inc.",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Peek-Howe Real Estate #1",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Rickey Heroman's Florist",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "The Perfect Guitar",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Himmel's Hardware & Cabinets",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Artistic Pools and Service",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Chem Spray South",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Manuel Martinez",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Real Estate Template",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Cypress Heights Academy",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Daly Dental Smiles",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Cypress Heights",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "BRG Phone Plus",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Cypress Heights Academy",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Louisiana Technology Park",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Pro Printer",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Port Fourchon",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "BRDP",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "St. Jude the Apostle School",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Braud Welding Inc.",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Sacred Heart of Jesus School",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "City of New Roads",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Baton Rouge Area Sports",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Jonathan Rushing Photography",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Dreams Come True",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "The Element Group",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Ancora",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Aspiring Film Makers Festival",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Scoliosis",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Jim Stone Company",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Prince Hall Lodge of Baton Rouge",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Louisiana Leadership Institute",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Buffalo Valley Ranch",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Fit-Bride",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "SMI Companies, Inc",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Precise Pipe & Clad, LLC (PPC)",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Gulf South Safety",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "A.C. Lewis Management",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Acadian Oaks",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Krewe of Artemis",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Dallon Bush-PreauxPics",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Spookypants.com",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Dallon Bush-IndiePreaux",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Leger's Catering",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "North Lafourche Levee District",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Redemptorist High School",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "SRI Telecom",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Sanctuary by the Sea",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Krewe of Orion",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Perrault's Trucking",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "The Gatehouse",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Sacred Heart Catholic Church",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Redemptorist Elementary School",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "The Bush Law Firm",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Cake Goddess, LLC",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Red River Solutions",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Citizens for Educational Choice",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "St. Alphonsus Catholic School",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    },
+    {
+      "title": "Sunrise Rotary of Baton Rouge",
+      "image": "",
+      "designer": "",
+      "skills": [
+
+      ],
+      "featured": false
+    }
   ]
 }

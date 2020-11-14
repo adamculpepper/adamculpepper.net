@@ -21,3 +21,5 @@ fields:
   - type: boolean
     name: featured
     label: featured
+pages:
+- _data/portfolio.json
