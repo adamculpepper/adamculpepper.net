@@ -20,15 +20,4 @@ $(function() {
 	$(".level8").animate({width:'80%'}, bar_speed);
 	$(".level9").animate({width:'90%'}, bar_speed);
 	$(".level10").animate({width:'100%'}, bar_speed);
-
-	// $(".fade a").fancybox({
-	// 	'transitionIn'		: 'elastic',
-	// 	'transitionOut'		: 'elastic',
-	// 	'titlePosition' 	: 'over',
-	// 	'overlayShow'		: true,
-
-	// 	'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
-	// 		return '<span id="fancybox-title-over"><div id="fancy_title">' + (title.length ? title : '') + '</div><div id="fancy_count">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + '</div><div style="clear:both;"></div></span>';
-	// 	}
-	// });
 });

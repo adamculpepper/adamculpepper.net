@@ -13,7 +13,7 @@ section: portfolio
 					{% if item.featured == true %}
 						<div class="col-sm-4 mb-4">
 							<div class="portfolio-item">
-								<a rel="port" href="fullimage.jpg" title="{{ item.title }}">
+								<a data-fancybox="port" href="{{ item.image }}" title="{{ item.title }}">
 									<div class="details-overlay p-2">
 										<h4>{{ item.title }}</h4>
 										<ul>
@@ -24,12 +24,13 @@ section: portfolio
 										<div>Designer: {{ item.designer }}</div>
 									</div>
 									{% respimg
-										path=item.image,
+										src=item.image,
 										width="308",
 										height="246",
 										alt=item.title,
 										sizes="200, 308",
-										classes="img-fluid"
+										loading="lazy",
+										class="img-fluid"
 									%}
 								</a>
 							</div>

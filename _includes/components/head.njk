@@ -16,12 +16,16 @@
 		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/prism-okaidia.css">
+		{% if section == 'portfolio' %}<link rel="stylesheet" href="/_includes/assets/css/jquery.fancybox.min.css">{% endif %}
 		<link rel="stylesheet" type="text/css" href="/_includes/assets/css/styles.css">
 	{% else %}
 		{% set css %}
 			{% include "assets/css/bootstrap.min.css" %}
 			{% include "assets/css/font-awesome.min.css" %}
 			{% include "assets/css/prism-okaidia.css" %}
+			{% if section == 'portfolio' %}
+			{% include "assets/css/jquery.fancybox.min.css" %}
+			{% endif %}
 			{% include "assets/css/styles.css" %}
 		{% endset %}
 		<style>{{ css | cssmin | safe }}</style>

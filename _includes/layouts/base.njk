@@ -104,7 +104,11 @@
 		</footer>
 
 		<script type="text/javascript" src="/_includes/assets/js/jquery.min.js"></script>
+		{% if section == 'portfolio' %}
+		<script type="text/javascript" src="/_includes/assets/js/jquery.fancybox.min.js"></script>
+		{% endif %}
 		<script type="text/javascript" src="/_includes/assets/js/scripts.js"></script>
+
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-450952-7']);

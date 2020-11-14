@@ -5,10 +5,9 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation"); // Eleventy Navigation - https://www.11ty.dev/docs/plugins/navigation/
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"); // Eleventy Syntax Highlighting - https://www.11ty.dev/docs/plugins/syntaxhighlight/
-const responsiveImages = require("eleventy-plugin-responsive-images");
-
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation"); // Eleventy Navigation - https://11ty.dev/docs/plugins/navigation/
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"); // Eleventy Syntax Highlighting - https://11ty.dev/docs/plugins/syntaxhighlight/
+const responsiveImages = require("eleventy-plugin-responsive-images"); // https://npmjs.com/package/eleventy-plugin-responsive-images
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -108,7 +107,6 @@ module.exports = function(eleventyConfig) {
 		})
 		.use(markdownItAttrs)
 	);
-
 
 
 	/* Plugin: eleventy-plugin-responsive-images */
