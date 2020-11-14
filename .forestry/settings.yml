@@ -1,15 +1,20 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/portfolio.json
+  label: Portfolio
 - type: directory
-  path: posts
+  path: blog
   label: Blog
   create: documents
   match: "**/*"
   exclude: "*.json"
+  templates:
+  - blog-post
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
