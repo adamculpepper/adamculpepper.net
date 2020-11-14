@@ -1,0 +1,23 @@
+---
+label: Portfolio
+hide_body: true
+fields:
+- type: field_group_list
+  name: items
+  label: items
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: designer
+    label: designer
+  - type: list
+    name: skills
+    label: skills
+  - type: boolean
+    name: featured
+    label: featured
