@@ -8,7 +8,7 @@ sections:
   path: _data/portfolio.json
   label: Portfolio
 - type: directory
-  path: posts
+  path: blog
   label: Blog
   create: documents
   match: "**/*"
